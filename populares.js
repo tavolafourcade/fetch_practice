@@ -10,4 +10,7 @@ window.onload = function(){
       document.querySelector('ul').innerHTML += '<li>'+ gif + '</li>';
     }
   })
+  .catch(function(e){
+    alert("Error, intente más tarde");
+  })
 }
